@@ -1,0 +1,28 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "events.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/icon16.png",
+      "default_title": "Save the current page to a Gist"
+   },
+   "commands": {
+      "save-to-gist": {
+         "description": "Save the current page to a Gist",
+         "suggested_key": {
+            "default": "Alt+G"
+         }
+      }
+   },
+   "description": "Save the current URL to a Gist",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "Save to a Gist",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "version": "0.1"
+}
